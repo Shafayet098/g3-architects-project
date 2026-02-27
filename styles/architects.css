@@ -1,8 +1,346 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .work-sans-font {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400px;
-  font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.text-gray {
+    color: var(--Dark 02, rgba(66, 66, 66, 1));
+}
+
+.text-light-gray {}
+
+.bg-light {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.btn-primary {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 144, 14, 1);
+    padding: 20px;
+    border-radius: 5px;
+    width: 180px;
+    height: 64px;
+    border: 0px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main>section {
+    margin-top: 130px;
+}
+
+/* Header Styles */
+
+/* navbar related styles */
+.navbar {
+    justify-content: space-between;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.navbar,
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.brand {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* banner related styles */
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+.teams {
+    align-items: center;
+    gap: 75px;
+}
+
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-features {
+    max-width: 530px;
+}
+
+#quick {
+    color: rgba(114, 114, 114, 1);
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#of-our {
+    color: rgba(19, 19, 19, 1);
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+#feature {
+    color: rgba(255, 144, 14, 1);
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.feature-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(114, 114, 114, 1);
+}
+
+/* Some Facts */
+.fact-card {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 144, 14, 1);
+    border-radius: 8px;
+    width: 241.83px;
+    height: 241.83px;
+    text-align: center;
+    align-content: center;
+}
+
+.facts-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.section-title {
+    color: rgba(19, 19, 19, 1);
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.text-light-gray {
+    color: rgba(114, 114, 114, 1);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    max-width: 542px;
+
+}
+
+.fact-number {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fact-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.sponsor {
+    margin-top: 80px;
+}
+
+.our {
+    color: rgba(19, 19, 19, 1);
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sponsor-description {
+    max-width: 542px;
+    color: rgba(114, 114, 114, 1);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+.logo {
+    max-width: 110px;
+
+}
+
+.sponsor-images {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+
+}
+
+.footer-box {
+    max-width: 1440px;
+    border-radius: 8px;
+    background: rgba(255, 244, 231, 1);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-description {
+    color: rgba(66, 66, 66, 1);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.sponsor-images img {
+    filter: grayscale(100%);
+}
+
+.feature-border {
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    padding-left: 20px;
+}
+
+.features-love-enjoy {
+    display: flex;
+    gap: 100px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.feature-heading {
+    color: rgba(19, 19, 19, 1);
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: left;
+    max-width: 468px;
+}
+
+.feature-card {
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgba(255, 255, 255, 1);
+    max-width: 586px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.features-box {
+    margin-bottom: 30px;
+}
+
+.card-heading {
+    color: var(--Dark 01, rgba(19, 19, 19, 1));
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.card-desciption {
+    color: var(--Dark 03, rgba(114, 114, 114, 1));
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+/* button */
+.btn-feature {
+    width: 258px;
+    height: 115px;
+    margin-left: -100px;
+    margin-top: -100px;
+
+}
+
+.year {
+    color: rgba(255, 255, 255, 1);
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+
+/* Responsive media query */
+@media screen and (max-width: 576px) {
+    .nav-links, 
+    .navbar,
+    .teams,
+    .features-love-enjoy{
+        flex-direction: column;
+    }
+    .team-img-container,
+    .facts-container,
+    .sponsor-images{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .Feature-img{
+        
+        margin: 0 auto;
+    }
+    .Feature-img>img{
+        width: 100%;
+    }
+    .btn-feature{
+        margin-left:0px
+    }
+
+
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .teams,
+    .features-love-enjoy{
+        flex-direction: column;
+    }   
+    .sponsor-images{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    } 
+    .facts-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+     .btn-feature{
+        margin-left:0px
+    }
+     .Feature-img{
+        
+        margin: 0 auto;
+    }
+    .Feature-img>img{
+        width: 100%;
+    }
+
 }
